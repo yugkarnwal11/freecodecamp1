@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="10" >
+       <caption>Student Data</caption>
+       <tr>
+        <th>S No</th>
+        <th>Name</th>
+        <th>Marks</th>
+       </tr> 
+       <tr>
+        <td>1</td>
+        <td>Harsh</td>
+        <td>25</td>
+       </tr>
+       <tr>
+        <td>2</td>
+        <td>Ravi</td>
+        <td>45</td>
+       </tr>
+       <tr>
+        <td>3</td>
+        <td>Rohan</td>
+        <td>60</td>
+       </tr>
+       <tr>
+        <th colspan="2">Total Student</th>
+        <td>3</td>
+       </tr>
+       <tr>
+         <th rowspan="3">Grade</th>
+       <td colspan="2">Rohan Grade A</td>
+       </tr>
+       <tr>
+        <td colspan="2">Ravi Grade B</td>
+       </tr>
+       <tr>
+        <td colspan="2">Harsh Grade C</td>
+        
+        </tr>
+      
+
+    </table>
+</body>
+</html>
